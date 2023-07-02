@@ -3,7 +3,7 @@
  Финальный результат этого задания - реализация приложения, с отображением постов, комментариев и аватарки. 
  Описание проекта c пояснениями доступно [здесь](https://docs.google.com/document/d/1t0XQdIRmHSMfl7dcYuEy1ZwsCy6RqPGECyHZcddyvBg/edit).
 
-Deploy [здесь]().
+Deploy [здесь](https://idyllic-rugelach-42c855.netlify.app).
 
 ### Состав проекта
 ***
