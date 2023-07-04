@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Menu = styled.div`
-  display: block;
+  display: block
   visibility: visible;
 `;
 
