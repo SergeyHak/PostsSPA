@@ -1,19 +1,21 @@
 import * as S from "./style";
 import { NavLink } from "react-router-dom";
-import Navigation from "../../components/MenuNavigation/Navigation";
+import Navigation from "../../components/venuNavigation/Navigation";
 import MyPhoto from "../../pictures/myPhoto.jpg";
 import Button from "react-bootstrap/esm/Button";
+import Header from "../../components/header/header";
+import { useState } from "react";
+
 
 export default function MyPage() {
+
   return (
     <div>
-      <S.HeaderDiv>
-        <S.HeaderSpan>POSTS-PROJECT</S.HeaderSpan>
-      </S.HeaderDiv>
+     <Header/>
       <S.ContentDiv>
         <S.InfoDiv>
           <S.MyInfo>
-            <S.MyPhoto src={MyPhoto} alt="" />
+            <S.MyPhoto src={MyPhoto} alt=""/>
           </S.MyInfo>
           <S.TextDiv>
             <S.TextSpan>

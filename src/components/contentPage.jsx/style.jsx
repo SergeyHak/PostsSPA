@@ -28,31 +28,14 @@ export const ContentDiv = styled.div`
   padding-left: calc(50% - 470px);
   padding-right: calc(50% - 470px);
   margin-top: 20px;
-`;
-export const HeaderDiv = styled.div`
-  display: flex;
-  justify-content: center;
-  background: rgb(111 90 131);
-  height: 40px;
-`;
-export const HeaderSpan = styled.span`
-  display: flex;
-  align-items: center;
-  color: rgb(250, 250, 250);
-`;
-export const NoPost = styled.div`
-  width: 800px;
-  height: 800px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`;
-export const LoaderDiv = styled.div`
-display: flex;
-align-items: center;
-gap: 10px;
-display: none;
-`;
-export const LoaderSpan = styled.span`
-font-size: 22px;
+  @media (max-width: 768px) and (min-width: 320px) {
+    padding-left: calc(50% - 330px);
+    padding-right: calc(50% - 330px);
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  @media (max-width: 436px) and (min-width: 320px) {
+    padding-left: calc(50% - 180px);
+    padding-right: calc(50% - 1800px);
+  }
 `;

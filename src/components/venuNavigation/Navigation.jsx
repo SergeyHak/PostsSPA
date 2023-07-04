@@ -39,7 +39,6 @@ export default function Navigation() {
             <Link to="/myPage">
             <S.MenuItem>Обо мне</S.MenuItem>
             </Link>
-            {/* <S.MenuItem>Выйти</S.MenuItem> */}
         </S.MenuList>
       </S.Menu>
     </S.Navigation>

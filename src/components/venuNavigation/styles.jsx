@@ -32,7 +32,7 @@ export const Navigation = styled.section`
   background-color: white;
   padding: 20px 0 20px 36px;
   transition: background-color 0.5s ease;
-   margin-right: 30px;
+  margin-right: 30px;
   @media (max-width: 1470px) {
     width: 200px;
   }
@@ -42,6 +42,10 @@ export const Navigation = styled.section`
   @media (max-width: 440px) {
     position: absolute;
     background-color: transparent;
+  }
+  @media (max-width: 768px) and (min-width: 320px) {
+    position: inherit;
+    padding: 0;
   }
 `;
 
