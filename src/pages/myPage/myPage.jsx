@@ -4,8 +4,6 @@ import Navigation from "../../components/menuNavigation/Navigation";
 import MyPhoto from "../../pictures/myPhoto.jpg";
 import Button from "react-bootstrap/esm/Button";
 import Header from "../../components/header/header";
-import { useState } from "react";
-
 
 export default function MyPage() {
 
