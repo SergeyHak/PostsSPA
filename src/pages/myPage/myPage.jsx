@@ -1,6 +1,6 @@
 import * as S from "./style";
 import { NavLink } from "react-router-dom";
-import Navigation from "../../components/venuNavigation/Navigation";
+import Navigation from "../../components/menuNavigation/Navigation";
 import MyPhoto from "../../pictures/myPhoto.jpg";
 import Button from "react-bootstrap/esm/Button";
 import Header from "../../components/header/header";

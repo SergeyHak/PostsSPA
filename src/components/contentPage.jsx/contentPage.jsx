@@ -2,7 +2,7 @@ import * as S from "./style";
 import avatar from "../../pictures/avatar.webp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faComments } from "@fortawesome/free-solid-svg-icons";
-import Navigation from "../../components/venuNavigation/Navigation";
+import Navigation from "../../components/menuNavigation/Navigation";
 import { Link } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import Loader from "../../components/loader/loader";
